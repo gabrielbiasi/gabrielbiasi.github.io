@@ -786,11 +786,16 @@ footer .social-footer li:hover a {
 	margin: 0 auto;
 }
 
+.modal-backdrop.in {
+    filter: alpha(opacity=99);
+    opacity: .99;
+}
+
 .modal-popup {
 	position: relative;
 	padding: 45px 30px;
 	text-align: center;
-	background: url('../img/popup.jpg');
+	background: url('../img/footer.jpg');
 	box-shadow: none;
 	border-radius: 2px;
 }

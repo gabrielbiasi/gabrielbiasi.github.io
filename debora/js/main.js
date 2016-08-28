@@ -14,7 +14,7 @@ jQuery(function($) {
 			$('.parallax, header').addClass('animated fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
 				$('.intro-tables').addClass('animated fadeInUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
 			});
-		//$('#modal1').modal('show');
+		$('#modal1').modal('show');
 		});
 
 		// Header Init

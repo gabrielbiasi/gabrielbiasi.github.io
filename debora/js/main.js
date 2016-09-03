@@ -4,6 +4,7 @@ jQuery(function($) {
 
 	var owlPricing;
 	var ratio = 2;
+	$('#modal1').modal('show');
 
 	// Window Load
 	$(window).load(function() {
